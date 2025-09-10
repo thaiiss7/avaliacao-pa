@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+body{
+  background-color: rgb(224, 190, 201);
+}
+
+.container {
+  width: 500px;
+  height: 300px;
+  margin: 40px;
+  padding: 20px;
+  background-color: rgb(255, 243, 255);
+  font-size:50px;
+  font-family:serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.square {
+  width: 400px;
+  height: 200px;
+}
