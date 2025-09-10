@@ -1,0 +1,88 @@
+:root {
+    --color-blue: rgb(162, 194, 236);
+    --color-yellow: rgb(236, 225, 162);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.l1 {
+    height: 33.3vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.l2 {
+    height: 33.3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.l3 {
+    height: 33.3vh;
+}
+
+.blue-rect {
+    height: 100%;
+    width: 50%;
+    background-color: var(--color-blue);
+    display: flex;
+    align-items: center;
+}
+
+.yellow-rect {
+    height: 100%;
+    width: 50%;
+    background-color: var(--color-yellow);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sup {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inf {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.blue-line {
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-blue);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blue-square {
+    height: 125px;
+    width: 125px;
+    background-color: var(--color-blue);
+}
+
+.yellow-square {
+    height: 125px;
+    width: 125px;
+    background-color: var(--color-yellow);
+}
