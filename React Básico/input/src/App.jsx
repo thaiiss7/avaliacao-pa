@@ -4,16 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [text, setText] = useState('')
+  const [input, setInput] = useState(document.getElementById(textInput).value)
 
   return (
     <>
       <div className='body'>
         <h1>input</h1>
         <div className='container'>
-          <input className='textInput' type="text"/>
+          <input id='textInput' type="text"/>
           <div className='square'>
-            <p>a</p>
+            <p>`${input}`</p>
           </div>
         </div>
       </div>
